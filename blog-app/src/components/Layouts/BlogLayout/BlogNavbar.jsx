@@ -69,7 +69,7 @@ const BlogNavbar = ({ activeMenu }) => {
           </div>
 
           {openSideMenu && (
-            <div className="fixed top-[62px] -m-4 bg-white">
+            <div className="fixed top-[80px] -m-4 bg-white">
                 <SideMenu activeMenu={activeMenu} isBlogMenu />
             </div>
           )}
